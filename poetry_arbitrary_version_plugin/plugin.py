@@ -1,9 +1,7 @@
 import os
 
-from cleo.events.console_events import COMMAND
 from cleo.helpers import option
 from poetry.console.application import Application
-from poetry.console.commands.env_command import EnvCommand
 from poetry.console.commands.build import BuildCommand
 from poetry.plugins.application_plugin import ApplicationPlugin
 

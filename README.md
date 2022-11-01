@@ -8,6 +8,20 @@ overriden for example during CI process. The version can be overriden
 using the environment variable `PROJECT_OVERRIDE_VERSION` or
 the `--override-version` switch of the build command.
 
+## Install
+
+Add the plugin to Poetry environment
+
+```sh
+$ poetry self add poetry-arbitrary-version-plugin
+```
+
+or install the plugin using `pip` to the place where `Poetry` is installed.
+
+```sh
+$ pip install poetry-arbitrary-version-plugin
+```
+
 ## Usage
 
 Overriding a project version by `PROJECT_OVERRIDE_VERSION` environment variable:
@@ -28,10 +42,4 @@ Overriden project version from 0.8.0 to 1.2.3
 Building poetry-arbitrary-version-plugin (1.2.3)
   - Building sdist
   - Built poetry_arbitrary_version_plugin-1.2.3.tar.gz
-```
-
-## Install
-
-```sh
-poetry self add poetry-arbitrary-version-plugin
 ```
