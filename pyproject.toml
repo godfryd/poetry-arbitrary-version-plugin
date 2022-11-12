@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "poetry-arbitrary-version-plugin"
-version = "0.9.1"
+version = "0.9.2"
 description = "A Poetry plugin to override a version in a pyproject.toml from environment variable or build and publish command option"
 authors = ["Michal Nowikowski <godfryd@gmail.com>"]
 license = "APACHE 2.0"
